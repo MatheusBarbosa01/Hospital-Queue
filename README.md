@@ -29,4 +29,7 @@ O sistema deve repetir essa sequência sempre que precisar chamar um paciente. C
 * Exibir o número de pacientes na fila.
 
 ## RESOLUÇÃO DO PROBLEMA
-- Primeiramente, foi criado uma classe fila para podermos adicionar ou remover um paciente da fila(esta fila foi criado em lista ligada, dessa forma podemos usar os métodos de adicionar sempre na **HEAD**, e remover sempre na **TAIL**).
+- Primeiramente, foi criado uma **classe Paciente**, para podermos adicionar os atributos de um paciente, no caso cpf, nome e prioridade. *É interessante notar que dentro da classe paciente utilizamos um enum, e definimos previamente que as prioridades são apenas 4(Severo, Moderado, Leve e Normal).*
+- Em segunda análise, foi criado uma **classe Fila**, para podermos adicionar ou remover um paciente da fila(esta fila foi criado em lista ligada, dessa forma podemos usar os métodos de adicionar sempre na **HEAD**, e remover sempre na **TAIL**).
+- Sob esse prisma, foi criado uma **classe GestaoHospital**, e dentro dessa classe foram criadas filas, a partir da **classe Fila**, para que dentro dos métodos adicionar e remover, sejam adicionados ou removidos pessoas que serão validadas de acordo com sua prioridade, e seguindo a seguinte lógica: foi pré-definido severo, moderado, leve e normal como booleano,e caso sejam verdadeiros remover uma vez da fila, porém, foram criado dois contadores, para que toda vez que remover um severo adicionar mais 1 no contador, e toda vez que esse contador chegar em 3 ou múltiplo de 3 remover um normal, além disso o **contador2** foi criado para toda vez uqe chegar no 2 ou múltiplo de 2 remover um severo.
+
