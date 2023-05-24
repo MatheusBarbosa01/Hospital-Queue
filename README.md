@@ -34,11 +34,11 @@ O sistema deve repetir essa sequência sempre que precisar chamar um paciente. C
 - Sob esse prisma, foi criado uma **classe GestaoHospital**, e dentro dessa classe foram criados filas, a partir da **classe Fila**, para que dentro dos métodos adicionar e remover, sejam adicionados ou removidos pessoas que serão validadas de acordo com sua prioridade, e seguindo a seguinte lógica: foi pré-definido severo, moderado, leve e normal como booleano,e caso sejam verdadeiros remover uma vez da fila, porém, foram criado dois contadores, para que toda vez que remover um severo adicionar mais 1 no contador, e toda vez que esse contador chegar em 3 ou múltiplo de 3 remover um normal, além disso,  o **contador2**, serve para que toda vez que for removido um moderado, adicionar mais 1 no **contador2**, e toda vez que chegar no 2 ou múltiplo de 2 remover um severo.
 
 #### Dessa forma, a ordem em que ocorrerá a remoção será:
- -SEVERO
- -MODERADO
- -LEVE
- -SEVERO
- -MODERADO
- -SEVERO
- -NORMAL
+ - _SEVERO
+ - _MODERADO
+ - _LEVE
+ - _SEVERO
+ - _MODERADO
+ - _SEVERO
+ - _NORMAL
 
