@@ -1,5 +1,3 @@
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
     Paciente p1 = new Paciente("m1", "010.568.173-43", Paciente.Prioridade.SEVERO);
