@@ -1,4 +1,4 @@
-# HOSPITAL-ROW
+# HOSPITAL-QUEUE
 ## PROBLEMA A SER RESOLVIDO
 Sistema de Atendimento Hospitalar
 
