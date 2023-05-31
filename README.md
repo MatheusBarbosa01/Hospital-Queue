@@ -1,4 +1,4 @@
-# HOSPITAL-QUEUE
+# HOSPITAL-QUEUE:grey_exclamation:
 ## QUAL O PROBLEMA A SER RESOLVIDO:grey_question:
 Sistema de Atendimento Hospitalar
 
