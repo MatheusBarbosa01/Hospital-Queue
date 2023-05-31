@@ -35,13 +35,13 @@ O sistema deve repetir essa sequência sempre que precisar chamar um paciente. C
 
 #### Dessa forma, a ordem em que ocorrerá a remoção será:
 ------------------------------------------------------------------------------------------
- 1° SEVERO 
- 2° MODERADO 
- 3° LEVE 
- 4° SEVERO 
- 5° MODERADO 
- 6° SEVERO 
- 7° NORMAL
+ 1 SEVERO 
+ 2 MODERADO 
+ 3 LEVE 
+ 4 SEVERO 
+ 5 MODERADO 
+ 6 SEVERO 
+ 7 NORMAL
 
 E assim continua mantém a sequência...
 
